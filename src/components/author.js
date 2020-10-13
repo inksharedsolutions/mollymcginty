@@ -19,7 +19,7 @@ const Author = () =>{
                             <span>Mcginty</span>
                         </h1>
                         <p>
-                            Full time librarian, Molly McGinty, received her Master’s in Library and Information Science in 2018.   She has lived in eight states and is the founder of Auntie M’s Children’s Theater,  
+                            Full time librarian, Molly McGinty, received her Master’s in Library and Information Science in 2018.   She has lived in eight states and is the founder of Auntie M’s Children’s Theater....
                         </p>
 
                         <div className="button-container">

@@ -79,7 +79,7 @@ class Accordions extends React.Component {
             extra={this.genExtra()}>
             <div>
               {text}
-              <span><Link class="link-read" to="/about-the-book">read more</Link></span>
+              <span><Link class="link-read" to="/books">read more</Link></span>
             </div>
           </Panel>
 

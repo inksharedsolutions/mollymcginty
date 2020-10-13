@@ -24,8 +24,8 @@ const ATB = (props)=>{
 		 		<Nav pathExt={props.path}/>
                  
 		 		<Banner
-                    spanFirst={`About The`}
-                    contextHeading={`Book`}
+                    spanFirst={``}
+                    contextHeading={`Books`}
                  />
 
                 <main className="wrapperMain">
@@ -58,7 +58,7 @@ const ATB = (props)=>{
                                     paperback:{
                                         amazon:'https://www.amazon.com/Fun-Run-Novel-Molly-McGinty/dp/1643453890/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1568650644&sr=8-1',
                                         barnes:'https://www.barnesandnoble.com/w/fun-run-molly-mcginty/1133492292?ean=9781643453897',
-                                        booksamillion:'https://www.booksamillion.com/p/Fun-Run/Molly-McGinty/9781643453897?id=8009965417365&_ga=2.155459835.1905326297.1602216593-1770015116.1600996550',
+                                        booksamillion:'https://www.booksamillion.com/p/Fun-Run/Molly-McGinty/9781643453897?id=8009965417365&_ga=2.192748778.1116250214.1602566023-1770015116.1600996550',
                                     }
                                 }} 
                             />
@@ -94,12 +94,16 @@ const ATB = (props)=>{
                                     <section className="fullSection">
                                         <nav className="booklinkBlocks">
                                             <span>Ebooks :</span>
-                                            <span>Soon...</span>
+                                            <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Social-Hour-Pineridge-Book-2-ebook/dp/B08KWPHF1T/ref=sr_1_1?dchild=1&keywords=9781648952197&qid=1602270762&sr=8-1">Amazon</a></li>
+                                            <li><span>Comming Soon ...</span></li>
+                                            <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/social-hour-molly-mcginty/1137881711?ean=9781648952197">Barnes & Noble</a></li>
                                         </nav>
 
                                         <nav className="booklinkBlocks">
                                             <span>Purchase Paperback :</span>
-                                            <span>Soon...</span>
+                                            <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/dp/1648952186/ref=sr_1_1?dchild=1&keywords=9781648952180&qid=1602271297&sr=8-1">Amazon</a></li>
+                                            <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/social-hour-molly-mcginty/1137881711?ean=9781648952180">Barnes & Noble </a></li>
+                                            <li><span>Comming Soon ...</span></li>
                                         </nav>
                                     </section>
 

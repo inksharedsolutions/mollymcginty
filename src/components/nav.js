@@ -94,7 +94,7 @@ const Nav = (props) => {
                         <li>
                             <Link
                                 to='/about-the-book'>
-                                About the Book
+                                Books
                             </Link>
                         </li>
                         <li>

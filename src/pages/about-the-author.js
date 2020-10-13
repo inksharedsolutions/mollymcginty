@@ -39,7 +39,7 @@ const ATB = (props)=>{
 
                         <article className="article-section column" id="author">
                             <p>
-                                Molly McGinty is a librarian for a small-town library in Vermont.  She has five children, who are all incredibly talented, funny, and brilliant, in her opinion.  An avid writer since a young child, Molly has written juvenile fiction, children's plays, and many short stories, as well as women's romance.  She thanks her Gran and her Mom for their encouragement in her writing and for their free editing services. Currently, Molly is directing the local children's theater's production of Treasure Island.  Originally from Texas, Molly is finding the cold winters of Vermont to be very exciting.  Look at all that snow!
+                            Full time librarian, Molly McGinty, received her Master’s in Library and Information Science in 2018. She has lived in eight states and is the founder of Auntie M’s Children’s Theater, which has done children’s theatrical work in New Mexico, Virginia, and Vermont. Fun Run is her first published work and the first book in the Pineridge series. Ms. McGinty currently resides in the Houston area with her five children.
                             </p>
                             <p>
                                 <span className="author-name">

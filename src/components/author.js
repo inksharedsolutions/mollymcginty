@@ -19,11 +19,11 @@ const Author = () =>{
                             <span>Mcginty</span>
                         </h1>
                         <p>
-                            Molly McGinty is a librarian for a small-town library in Vermont.  She has five children, who are all incredibly talented, funny, and brilliant, in her opinion.  An avid writer since a young child, Molly has written juvenile fiction, children's plays, and many short stories, as well as women's romance.  
+                            Full time librarian, Molly McGinty, received her Master’s in Library and Information Science in 2018.   She has lived in eight states and is the founder of Auntie M’s Children’s Theater,  
                         </p>
 
                         <div className="button-container">
-                            <Link to="">
+                            <Link to="/about-the-author">
                                 Read More
                             </Link>
                         </div>

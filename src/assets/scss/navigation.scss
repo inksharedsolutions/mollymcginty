@@ -9,7 +9,7 @@
                 text-decoration: none;
                 margin: 0 14px;
                 font-size: 1.3em;
-                color: #444 !important;
+                color: rgb(255, 255, 255) !important;
             }
         }
     }
@@ -19,8 +19,8 @@
     }
 
     [aria-current="page"] {
-        border-bottom: 4px solid #1f0200;
-        color: #1f0200 !important;
+        border-bottom: 4px solid #ffffff;
+        color: #ffffff !important;
         ;
     }
 
@@ -31,7 +31,7 @@
     min-height: 10vh;
     width: 90%;
     margin: 0 5%;
-    border-bottom: 1px solid #292929;
+    border-bottom: 1px solid #ffffff !important;
     display: flex;
     justify-content: space-between;
     align-items: center;

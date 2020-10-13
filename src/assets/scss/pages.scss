@@ -12,7 +12,7 @@ $prm-font-size : 12px;
 
 
 .web-banner{
-    background: url("../../../static/banner/banner.jpeg");
+    background: linear-gradient(to bottom, #081b22d0, rgba(134, 134, 134, 0.73)), url("../../../static/banner/banner1.webp");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -21,17 +21,20 @@ $prm-font-size : 12px;
 
 
     span{
-        letter-spacing: 0.67em;
+        letter-spacing: 2em;
+        font-weight: 300;
         text-transform: uppercase;
         line-height: 2;
-        color: #444444;
+        text-shadow: 2px 2px #353434;
+        color: #ffffff;
     }
 
     h1{
-        font-size: 4em;
+        font-size: 5em;
         font-weight: 900;
+        text-shadow: 9px 9px #2b2b2b;
         text-transform: uppercase;
-        color: #444444 !important;
+        color: #bebebe !important;
     }
 }
 
@@ -273,7 +276,7 @@ $prm-font-size : 12px;
         text-decoration: none;
         background: #0f1b23;
         padding: 4px 15px;
-        color: rgb(3, 3, 3) !important;
+        color: rgb(255, 255, 255) !important;
         font-size: 13px;
     }
 }

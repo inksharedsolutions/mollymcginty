@@ -32,7 +32,7 @@ const Footer = ()=>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/Lois-Richman-1960211394027015/?ref=bookmarks"
+                                <a href="https://www.facebook.com/Molly-McGinty-102780441122831/"
                                 target="_blank">
                                     <FontAwesomeIcon   
                                         className='font-awesome'
@@ -65,7 +65,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/45163586-key-west-interlude">
+                                    href="https://www.goodreads.com/book/show/48203811-fun-run">
 
                                     <FontAwesomeIcon 
                                         className='font-awesome'
@@ -117,7 +117,7 @@ const Footer = ()=>{
                     </li>
 
                     <li>
-                        <Link to="/terms-and-conditions">Terms & Condition</Link>
+                        <Link to="/terms-and-conditions">Terms & Conditions</Link>
                     </li>
                 </ul>
             </div>

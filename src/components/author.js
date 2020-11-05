@@ -16,7 +16,7 @@ const Author = () =>{
                         <span>Author & Writer</span>
                         <h1>
                             <span>Molly</span>
-                            <span>Mcginty</span>
+                            <span>McGinty</span>
                         </h1>
                         <p>
                             Full time librarian, Molly McGinty, received her Master’s in Library and Information Science in 2018.   She has lived in eight states and is the founder of Auntie M’s Children’s Theater....

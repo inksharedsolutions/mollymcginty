@@ -17,7 +17,7 @@ const Banner = () => {
 
                                 <p className="right-sub-text">
                                     <span>
-                                        -Molly Mcginty
+                                        -Molly McGinty
                                    </span>
                                 </p>
 

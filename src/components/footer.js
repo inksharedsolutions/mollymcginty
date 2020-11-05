@@ -24,7 +24,7 @@ const Footer = ()=>{
                         </h1>
 
                         <p>
-                            Molly Mcginty loves to hear from readers. You can reach her via email. 
+                            Molly McGinty loves to hear from readers. You can reach her via email. 
                             Feel free to send questions about writing, her works, interviews 
                             and other publicity matters.
                         </p> 

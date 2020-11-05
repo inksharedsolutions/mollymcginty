@@ -1,7 +1,7 @@
 ---
   title: "Second One to watch - and quite the opposite"
   date : "August 14, 2020"
-  author : "Molly Mcginty"
+  author : "Molly McGinty"
 ---
 
 Have you seen Jennifer Aniston in “The Morning Show” (not the real one, on one of the networks”? but an Apple + production. She is FABULOUS. And, of course, the sets are wow and her clothes so tailored and perfect (dream on! They are custom-made) 

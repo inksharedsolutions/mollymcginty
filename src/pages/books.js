@@ -6,6 +6,7 @@ import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
 import FrontBook from '../../static/books/book_01.png'
 import SecondBook from '../../static/books/book_02.png'
+import ThirdBook from '../../static/books/book_03.png'
 
 const ATB = (props)=>{
 
@@ -62,53 +63,61 @@ const ATB = (props)=>{
                                     }
                                 }} 
                             />
+
                             <div className="columns book-container-ft">
-                
                                 <div className="column">
                                     <div className="bookImgContainer">
                                         <img alt="main-book" src={SecondBook} />
                                     </div>
                                 </div>
-                                
                                 <div className="column">
                                     <section className="contentBook">
-                                        <h1>
-                                            Social Hour
-                                        </h1>
-
-                                        <p className="sub-heading">
-                                            
-                                        </p>
-                                        
-                                        <span>
-                                            
-                                        </span> 
-
-                                        <div className="content-body" 
-                                            >
+                                        <h1>Social Hour</h1>
+                                        <p className="sub-heading"></p>
+                                        <div className="content-body">
                                             <p>After the death of her husband. Maggie bought a bed and breakfast as a way to provide and income for herself while still being a stay-at-home mom for her two young children. She provided free lodging to anyone who had wounded soldier in the local hospital, but after three  years with many free guests and few paying ones. Maggie is on the verge of shutting her doors.</p>
                                             <p>Hoping she can keep her bed and breakfast ope through Christmas, Maggie takes in one final guest, whose sister is in the hospital. But Bryan Connolly isn't the usual guest; he sees here struggling to run the B&B all alone. Impressed by her generous nature, kind heart, and the best cookies he's ever tasted. Bryan is a determined to help Maggie. Through the B&B's nightly social hour of tea and cookies. Maggie and Bryan learn to push beyond past hurts and find love again.</p>
-                                            </ div>
+                                        </ div>
                                     </section>
-
                                     <section className="fullSection">
                                         <nav className="booklinkBlocks">
                                             <span>Ebooks :</span>
                                             <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Social-Hour-Pineridge-Book-2-ebook/dp/B08KWPHF1T/ref=sr_1_1?dchild=1&keywords=9781648952197&qid=1602270762&sr=8-1">Amazon</a></li>
-                                            {/* <li><span>Comming Soon ...</span></li> */}
                                             <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/social-hour-molly-mcginty/1137881711?ean=9781648952197">Barnes & Noble</a></li>
                                         </nav>
-
                                         <nav className="booklinkBlocks">
                                             <span>Purchase Paperback :</span>
                                             <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/dp/1648952186/ref=sr_1_1?dchild=1&keywords=9781648952180&qid=1602271297&sr=8-1">Amazon</a></li>
                                             <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/social-hour-molly-mcginty/1137881711?ean=9781648952180">Barnes & Noble </a></li>
-                                            {/* <li><span>Comming Soon ...</span></li> */}
                                         </nav>
                                     </section>
-
                                 </div>	
                             </div>
+
+                            <div className="columns book-container-ft">
+                                <div className="column">
+                                    <div className="bookImgContainer">
+                                        <img alt="Hazel Summer book cover" src={ThirdBook} />
+                                    </div>
+                                </div>
+                                <div className="column">
+                                    <section className="contentBook">
+                                        <h1>Hazel Summer</h1>
+                                        <p className="sub-heading"></p>
+                                        <div className="content-body">
+                                            <p>Maggie, owner of the Pineridge Inn Bed and Breakfast and Ruth, director of the Pineridge Library get an unexpected, but very welcomed visitor. Hazel Nivens was once a Pineridge native but left in her teens and is now visiting her hometown again, fifty years later. But tragedy strikes the bed and breakfast and Hazel is found dead in her bed of natural causes.</p>
+                                            <p>Six months later, Hazel’s last requests appear in the form of a large bequest to the bed and breakfast and the library. Maggie and Ruth suddenly have money to fix up their respective businesses. The two women are determined to find out who exactly Hazel was and why she left two near-strangers a half a million dollars. But when Ruth’s husband is in a car accident, Hazel and her money are quickly forgotten as new priorities of family and love take their place.</p>
+                                            <p>Hazel Summer is Molly McGinty’s third book in the Pineridge Series. When she is not at work as a librarian, Molly loves to spend her time with her children and writing.</p>
+                                        </ div>
+                                    </section>
+                                    <section className="fullSection">
+                                        <nav className="booklinkBlocks">
+                                            <span>Coming soon...</span>
+                                        </nav>
+                                    </section>
+                                </div>	
+                            </div>
+
                             <div className="commentSection">
                                 <div id="disqus_thread">
                                     <DiscussionEmbed {...disqusConfig} />

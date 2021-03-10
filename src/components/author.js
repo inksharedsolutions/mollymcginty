@@ -9,7 +9,7 @@ const Author = () =>{
                 <div className="grid-two-columns">
 
                      <div className="grid-child" id="author-image-container">
-                        <img src={AuthorImg}/>
+                        <img src={AuthorImg} alt="Molly McGinty"/>
                      </div>
 
                      <div className="grid-child" id="author-contents">

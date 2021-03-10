@@ -23,7 +23,7 @@ const MidBook = (props)=>{
                         </div>
 
                         <div className="book-wraps">
-                            <img src={FrontBook}/>
+                            <img src={FrontBook} alt="Fun Run book cover"/>
                         </div>
 
                

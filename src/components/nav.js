@@ -7,27 +7,27 @@ const Nav = (props) => {
     const refSpan = useRef();
     const [toggled, setToggled] = useState(false);
 
-    const pages = [
-        'Home',
-        'About-the-Author',
-        'books',
-        'Contact'
-    ]
+    // const pages = [
+    //     'Home',
+    //     'About-the-Author',
+    //     'books',
+    //     'Contact'
+    // ]
 
-    let Listed = pages.map((e) => {
+    // let Listed = pages.map((e) => {
 
-        var newUrl = ((e).replace(/[ /]/g, "-").trim().toLowerCase());
-        let filterUrl = (newUrl === 'home') ? '/' : newUrl;
+    //     var newUrl = ((e).replace(/[ /]/g, "-").trim().toLowerCase());
+    //     let filterUrl = (newUrl === 'home') ? '/' : newUrl;
 
-        return (
-            <li>
-                <Link
-                    to={filterUrl}>
-                    {e.replace(/[-/]/g, " ").trim()}
-                </Link>
-            </li>
-        )
-    })
+    //     return (
+    //         <li>
+    //             <Link
+    //                 to={filterUrl}>
+    //                 {e.replace(/[-/]/g, " ").trim()}
+    //             </Link>
+    //         </li>
+    //     )
+    // })
 
     const clickEvent = (e) => {
         setToggled(!toggled);
@@ -54,12 +54,10 @@ const Nav = (props) => {
                             }}
                         to="/">
 
-                        <img className="logo-img" src={Logo} />
+                        <img className="logo-img" src={Logo} alt="Logo"/>
 
                     </Link>
                 </h1>
-
-                <h1></h1>
 
                 <ul
                     className="hamburger-ul"

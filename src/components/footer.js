@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import {faTwitter, faInstagram, faFacebook, faGoodreads, faPinterest, faLinkedin } from '@fortawesome/fontawesome-free-brands'
+import {faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LogoFooter from '../../static/logo/stratton-footer-logo.png'
 import  Logo from '../../static/logo/logo.png'
@@ -32,8 +32,10 @@ const Footer = ()=>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/Molly-McGinty-102780441122831/"
-                                target="_blank">
+                                <a 
+                                    href="https://www.facebook.com/Molly-McGinty-102780441122831/"
+                                    rel="noopener noreferrer"
+                                    target="_blank">
                                     <FontAwesomeIcon   
                                         className='font-awesome'
                                         icon={faFacebook} />
@@ -41,10 +43,10 @@ const Footer = ()=>{
                             </li>
 
                             <li>
-                                <a
+                                <a  
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                     href="https://twitter.com/StrattonPress">
-                                        
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faTwitter} />
@@ -52,10 +54,10 @@ const Footer = ()=>{
                             </li>
 
                             <li>
-                                <a          
+                                <a      
+                                    rel="noopener noreferrer"    
                                     target="_blank"
                                     href="https://www.instagram.com/strattonpress/">
-
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faInstagram} />
@@ -64,9 +66,9 @@ const Footer = ()=>{
                         
                             <li>
                                 <a 
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                     href="https://www.goodreads.com/book/show/48203811-fun-run">
-
                                     <FontAwesomeIcon 
                                         className='font-awesome'
                                         icon={faGoodreads} />

@@ -52,7 +52,7 @@ const ATB = (props)=>{
                                     `,
 
                                     ebooks:{
-                                        stratton : 'https://www.stratton-press.com/books/fun-run-a-novel/',
+                                        stratton : '',
                                         barnes: 'https://www.barnesandnoble.com/w/fun-run-molly-mcginty/1133492292?ean=9781643457178',
                                         amazon :'https://www.amazon.com/Fun-Run-Novel-Molly-McGinty-ebook/dp/B07XLD6H8K/ref=sr_1_1?keywords=9781643457178&qid=1568650644&s=gateway&sr=8-1',
                                     },
@@ -63,7 +63,7 @@ const ATB = (props)=>{
                                     }
                                 }} 
                             />
-
+														{/*Stratton Link: https://www.stratton-press.com/books/fun-run-a-novel/*/}
                             <div className="columns book-container-ft">
                                 <div className="column">
                                     <div className="bookImgContainer">
@@ -89,6 +89,7 @@ const ATB = (props)=>{
                                             <span>Purchase Paperback :</span>
                                             <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/dp/1648952186/ref=sr_1_1?dchild=1&keywords=9781648952180&qid=1602271297&sr=8-1">Amazon</a></li>
                                             <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/social-hour-molly-mcginty/1137881711?ean=9781648952180">Barnes & Noble </a></li>
+																						<li><a rel="noopener noreferrer" target="_blank" href="https://www.booksamillion.com/p/Social-Hour/Molly-McGinty/9781648952180?id=8179891524610">Books A Million</a></li>
                                         </nav>
                                     </section>
                                 </div>	
